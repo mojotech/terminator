@@ -34,9 +34,9 @@ defmodule Terminator.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:ecto, "~> 3.4"},
-      {:ecto_sql, "~> 3.4"},
-      {:postgrex, "~> 0.15.3"},
+      {:ecto, "> 3.0.0"},
+      {:ecto_sql, "> 3.0.0"},
+      {:postgrex, "> 0.14.0"},
       {:ex_doc, "~> 0.19", only: :dev, runtime: false},
       {:optimus, "~> 0.1.0", only: :dev},
       {:mix_test_watch, "~> 0.8", only: :dev, runtime: false},
